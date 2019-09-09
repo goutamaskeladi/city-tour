@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
+import Navbar from './Navbar/Navbar'
 
 class App extends Component {
     render() {
         return (
             <div>
-                <h2> <i class="fa fa-car"></i> Welcome to React City Tour</h2>
+               <Navbar/>
             </div>
         )
     }
