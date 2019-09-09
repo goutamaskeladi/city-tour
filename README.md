@@ -57,6 +57,14 @@ Setup Procedure From Scratch: Open the command line and type
 
    *  Create entry file public/index.html and src/index.js
 
+   *  To install sass ->  npm install --save node-sass
+
+   *  To fix webpack loader issue,
+
+          npm install sass-loader --save-dev
+          npm install style-loader --save-dev
+          npm install css-loader --save-dev 
+
    *  npm start
 
    *  npm run build
