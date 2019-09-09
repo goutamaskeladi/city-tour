@@ -65,6 +65,10 @@ Setup Procedure From Scratch: Open the command line and type
           npm install style-loader --save-dev
           npm install css-loader --save-dev 
 
+   *  To fix image parse issue,
+
+          npm install image-webpack-loader file-loader --save-dev
+
    *  npm start
 
    *  npm run build
