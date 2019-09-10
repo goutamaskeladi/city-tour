@@ -10,7 +10,8 @@ export default function Navbar() {
               <li>
                   <a href="/" className="nav-link">Home</a>
                   <a href="/about" className="nav-link">About</a>
-                  <a href="/tours" className="nav-link active">Tours</a>
+                  <a href="/services" className="nav-link">Services</a>
+                  <a href="/contact" className="nav-link active">Contact</a>
               </li>
            </ul>
         </nav>
