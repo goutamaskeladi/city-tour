@@ -2,7 +2,7 @@ import React from 'react'
 import './Tour.scss'
 
 function Tour(props) {
-    const { id, img, city, name, info } = props
+    const { img, city, name, info } = props
     return (
         <>
           <article className="tour">
