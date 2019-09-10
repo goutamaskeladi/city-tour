@@ -1,8 +1,9 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './Tour.scss'
 
 function Tour(props) {
     const { img, city, name, info } = props
+    const [ infoState, showInfo ]= useState(false)
     return (
         <>
           <article className="tour">
@@ -21,10 +22,12 @@ function Tour(props) {
                    <h4>{name}</h4>
                    <h5>info 
                        <span>
-                          <i className="fa fa-arrow-down"></i>
+                          <i className="fa fa-arrow-down" onClick={() => showInfo(!infoState)} style={{cursor:'pointer'}}></i>
                        </span>
                    </h5>
-                   <p>{info}</p>
+                   {
+                       infoState ? <p>{info}</p> : ""
+                   }
               </div>
          </article>
         </>
