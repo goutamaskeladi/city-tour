@@ -13,3 +13,10 @@ $navBarLinkColor: #ffffff;
 $mainGreen: rgb(0, 121, 0);
 $mainBlue: rgb(0, 0, 121);
 $mainRed: rgb(121, 0, 0);
+
+/* Devices (upto, 1200px and down) */
+@media only screen and (max-width: 1200px) {
+    article.tour {
+        width: 100%;
+    }
+}
